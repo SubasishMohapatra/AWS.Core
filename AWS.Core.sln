@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huron.AWS.S3.Core", "Huron.AWS.S3.Core\Huron.AWS.S3.Core.csproj", "{5254C7DE-ACB0-4215-87E0-1C9F1762E2C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.S3.Core", "AWS.S3.Core\AWS.S3.Core.csproj", "{5254C7DE-ACB0-4215-87E0-1C9F1762E2C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huron.AWS.SQS.Core", "Huron.AWS.SQS.Core\Huron.AWS.SQS.Core.csproj", "{ED7DD320-5087-4597-9CAE-CF34BC844C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SQS.Core", "AWS.SQS.Core\AWS.SQS.Core.csproj", "{ED7DD320-5087-4597-9CAE-CF34BC844C2F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huron.AWS.SecretsManager.Core", "Huron.AWS.SecretsManager.Core\Huron.AWS.SecretsManager.Core.csproj", "{77813F92-0656-4A44-846B-64C915AE0F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SecretsManager.Core", "AWS.SecretsManager.Core\AWS.SecretsManager.Core.csproj", "{77813F92-0656-4A44-846B-64C915AE0F66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

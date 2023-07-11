@@ -7,7 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Huron.AWS.S3.Core
+namespace AWS.S3.Core
 {
     public class AmazonS3Service : IAmazonS3Service
     {

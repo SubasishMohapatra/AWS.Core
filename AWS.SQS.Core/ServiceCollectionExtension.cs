@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Huron.AWS.SQS.Core
+namespace AWS.SQS.Core
 {
 
     public static class ServiceCollectionExtension

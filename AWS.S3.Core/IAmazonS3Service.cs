@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.Net;
 
-namespace Huron.AWS.S3.Core
+namespace AWS.S3.Core
 {
     public interface IAmazonS3Service
     {

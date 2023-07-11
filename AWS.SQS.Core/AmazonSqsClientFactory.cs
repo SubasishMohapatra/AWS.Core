@@ -2,7 +2,7 @@
 using Amazon.SQS;
 using Microsoft.Extensions.Options;
 
-namespace Huron.AWS.SQS.Core
+namespace AWS.SQS.Core
 {
     public class AmazonSqsClientFactory : IAmazonSqsClientFactory
     {

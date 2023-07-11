@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-namespace Huron.AWS.SecretsManager.Core
+namespace AWS.SecretsManager.Core
 {
     public static class ServiceCollectionExtension
     {

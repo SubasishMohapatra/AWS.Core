@@ -1,6 +1,6 @@
 ﻿using Amazon.SecretsManager;
 
-namespace Huron.AWS.SecretsManager.Core
+namespace AWS.SecretsManager.Core
 {
     public interface ISecretsManagerClientFactory
     {

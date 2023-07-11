@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Huron.AWS.S3.Core</Title>
+    <Title>AWS.S3.Core</Title>
     <Description>An AWS S3 core package to do basic operations like get, upload, delete S3 files</Description>
     <PackageIcon>sdk.png</PackageIcon>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>

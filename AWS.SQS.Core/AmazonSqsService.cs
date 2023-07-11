@@ -2,7 +2,7 @@
 using System.Net;
 using System.Text.Json;
 
-namespace Huron.AWS.SQS.Core
+namespace AWS.SQS.Core
 {
     public class AmazonSqsService : IAmazonSqsService
     {

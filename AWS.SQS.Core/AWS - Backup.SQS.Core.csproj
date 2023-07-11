@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Title>Huron.AWS.SQS.Core</Title>
+    <Title>AWS.SQS.Core</Title>
     <Description>A basic AWS SQS Core nuget package</Description>
     <PackageIcon>sdk.png</PackageIcon>
     <PackageTags>AWS; SQS</PackageTags>

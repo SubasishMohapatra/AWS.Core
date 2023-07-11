@@ -1,7 +1,7 @@
 ﻿using Amazon.Runtime;
 using Amazon.SQS;
 
-namespace Huron.AWS.SQS.Core
+namespace AWS.SQS.Core
 {
     public interface IAmazonSqsClientFactory
     {

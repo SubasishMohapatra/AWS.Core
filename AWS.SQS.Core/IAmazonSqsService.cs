@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Huron.AWS.SQS.Core
+namespace AWS.SQS.Core
 {
     public interface IAmazonSqsService
     {

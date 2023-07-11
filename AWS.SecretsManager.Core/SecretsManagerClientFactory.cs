@@ -4,7 +4,7 @@ using Amazon.SecretsManager;
 using Microsoft.Extensions.Options;
 using static Org.BouncyCastle.Math.EC.ECCurve;
 
-namespace Huron.AWS.SecretsManager.Core
+namespace AWS.SecretsManager.Core
 {
     public class SecretsManagerClientFactory : ISecretsManagerClientFactory
     {

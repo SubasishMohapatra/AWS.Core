@@ -2,7 +2,7 @@
 using HuRo.S3.Core;
 using MySql.Data.MySqlClient;
 
-namespace Huron.AWS.SecretsManager.Core
+namespace AWS.SecretsManager.Core
 {
     public class SecretsManagerService : ISecretsManagerService
     {
