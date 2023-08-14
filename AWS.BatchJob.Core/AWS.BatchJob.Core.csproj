@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>AWS.BatchJob.Core</Title>
+		<Description>An AWS Batch Job core package to do basic batch operations</Description>
+		<PackageIcon>sdk.png</PackageIcon>
+		<AssemblyVersion>1.1.0.0</AssemblyVersion>
+		<FileVersion>1.1.0.0</FileVersion>
+		<VersionPrefix>1.1.0</VersionPrefix>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\sdk.png" Link="sdk.png">
+	    <PackagePath>\</PackagePath>
+	    <Pack>True</Pack>
+	  </None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Batch" Version="3.7.201.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

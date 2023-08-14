@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SQS.Core", "AWS.SQS.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SecretsManager.Core", "AWS.SecretsManager.Core\AWS.SecretsManager.Core.csproj", "{77813F92-0656-4A44-846B-64C915AE0F66}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.BatchJob.Core", "AWS.BatchJob.Core\AWS.BatchJob.Core.csproj", "{99056A71-E058-4316-84D4-FAAB6B77F147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.EventBridge.Core", "AWS.EventBridge.Core\AWS.EventBridge.Core.csproj", "{876685F8-BB24-4BE0-980C-F9F55E274270}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SharedLib", "AWS.SharedLib\AWS.SharedLib.csproj", "{8A01FF0B-C68D-49BF-AEAD-53CB8FF15C51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{77813F92-0656-4A44-846B-64C915AE0F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77813F92-0656-4A44-846B-64C915AE0F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77813F92-0656-4A44-846B-64C915AE0F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99056A71-E058-4316-84D4-FAAB6B77F147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99056A71-E058-4316-84D4-FAAB6B77F147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99056A71-E058-4316-84D4-FAAB6B77F147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99056A71-E058-4316-84D4-FAAB6B77F147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876685F8-BB24-4BE0-980C-F9F55E274270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876685F8-BB24-4BE0-980C-F9F55E274270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876685F8-BB24-4BE0-980C-F9F55E274270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876685F8-BB24-4BE0-980C-F9F55E274270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A01FF0B-C68D-49BF-AEAD-53CB8FF15C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A01FF0B-C68D-49BF-AEAD-53CB8FF15C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A01FF0B-C68D-49BF-AEAD-53CB8FF15C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A01FF0B-C68D-49BF-AEAD-53CB8FF15C51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
